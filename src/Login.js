@@ -8,12 +8,18 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 const Login = (props)=>{
 
     return <View>
-        <Text>Login</Text>
+        
         <TouchableOpacity onPress={()=>{
             props.navigation.push("Home");
         }} >
-            <Text>Login</Text>
+            <Text>User login</Text>
             </TouchableOpacity>
+            <TouchableOpacity onPress={()=>{
+            props.navigation.push("Upload");
+        }} >
+            <Text>Admin login</Text>
+            </TouchableOpacity>
+            
     </View>
 }
  

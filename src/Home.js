@@ -6,15 +6,19 @@ import { StyleSheet,View, Text, TouchableOpacity } from 'react-native';
 
 
 
-const Home = ()=>{
+const Home = (props)=>{
 
     return <View>
         <Text>Home</Text>
         <View style={styles.menu}>
-        <TouchableOpacity  style={styles.Lib}>
+        <TouchableOpacity  onPress={()=>{
+            props.navigation.push("Library");
+        }}   style={styles.Lib}>
           <Text  style={styles.SignUpText}>Library</Text>
         </TouchableOpacity>
-        <TouchableOpacity   style={styles.Download}>
+        <TouchableOpacity  onPress={()=>{
+          props.navigation.push("Download")
+        }} style={styles.Download}>
           <Text style={styles.SignUpText}>Download books</Text>
         </TouchableOpacity>
         <TouchableOpacity   style={styles.Set}>
