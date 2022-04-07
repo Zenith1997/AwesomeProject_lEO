@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926176921690",
+    "project_id": "storied-catwalk-325119",
+    "storage_bucket": "storied-catwalk-325119.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926176921690:android:f952315495aef12c3bb063",
+        "android_client_info": {
+          "package_name": "com.awesomeproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926176921690-nnsek0i0fv5n195a6u19rvefd85dhm37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxcOCagtw97EXR8x9Cx2NDRI7MROvEkoc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926176921690-nnsek0i0fv5n195a6u19rvefd85dhm37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
